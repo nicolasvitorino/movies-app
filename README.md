@@ -22,7 +22,7 @@ Aplicativo Flutter para exibir filmes populares e realizar buscas, utilizando a 
 
 Acesse a aba de **Releases** do GitHub:
 
-👉 [🔗 Página de Releases](https://github.com/SEU_USUARIO/SEU_REPO/releases)
+👉 [🔗 Página de Releases](https://github.com/nicolasvitorino/movies-app/releases)
 
 E faça o download do arquivo:
 movies-app.apk
@@ -36,6 +36,46 @@ movies-app.apk
 2. No celular, toque no arquivo `.apk`
 3. Pode ser necessário permitir instalação de fontes desconhecidas
 4. Aguarde a instalação e abra o app 🎉
+
+
+---
+
+## 💻 Rodando o projeto localmente
+Caso deseje rodar o projeto Flutter localmente:
+
+### 1. Clone o repositório:
+git clone https://github.com/nicolasvitorino/movies-app.git
+cd movies_app
+
+
+---
+
+### 2. Cadastre-se no TMDB:
+Acesse https://www.themoviedb.org/
+
+Crie uma conta gratuita
+
+Vá até https://www.themoviedb.org/settings/api
+
+Crie uma nova API Key (Token de Acesso v4 - Bearer Token)
+
+
+---
+
+### 3. Crie um arquivo .env na raiz do projeto
+Na raiz do projeto, crie um arquivo chamado .env (sem nome antes do ponto) com o seguinte conteúdo:
+
+TMDB_API_KEY=SUA_CHAVE_AQUI
+
+Substitua SUA_CHAVE_AQUI pelo token Bearer obtido no site da TMDB.
+
+
+---
+
+### 4. Instale as dependências e rode:
+flutter pub get
+flutter run
+
 
 ---
 
