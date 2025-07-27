@@ -22,7 +22,7 @@ Aplicativo Flutter para exibir filmes populares e realizar buscas, utilizando a 
 
 Acesse a aba de **Releases** do GitHub:
 
-👉 [🔗 Página de Releases](https://github.com/nicolasvitorino/movies_app/releases)
+👉 [🔗 Página de Releases](https://github.com/nicolasvitorino/movies-app/releases)
 
 E faça o download do arquivo:
 movies-app.apk
@@ -45,7 +45,7 @@ Caso deseje rodar o projeto Flutter localmente:
 
 ### 1. Clone o repositório:
 git clone https://github.com/nicolasvitorino/movies-app.git
-cd movies_app
+cd movies-app
 
 
 ---
